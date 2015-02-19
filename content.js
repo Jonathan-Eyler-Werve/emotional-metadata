@@ -10,3 +10,4 @@ g.src = chrome.extension.getURL('gmail.js');
 var s = document.createElement('script');
 s.src = chrome.extension.getURL('main.js');
 (document.head || document.documentElement).appendChild(s);
+
