@@ -1,7 +1,7 @@
 {
-  "name": "Gmail.js",
+  "name": "Emotional Metadata",
   "version": "0.1",
-  "description": "Hello World Gmail chrome extension",
+  "description": "Inserts author context into email footer",
   "content_scripts": [
     {
       "matches": ["https://*.google.com/*"],
@@ -13,5 +13,5 @@
     "gmail.js",
     "main.js"
   ],
-  "manifest_version": 2
+  "manifest_version": 3
 }
