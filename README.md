@@ -1,14 +1,28 @@
-# Gmail.js Chrome Extension
+# Emotional Metadata
 
-Hello world chrome extension using gmail.js
+An attempt to make email less damaging by sending the author's context with the text. A chrome extention that builds on gmail. Work in progress.
 
-This is a sample chome extension that uses gmail.js to build apps on top of Gmail.
+### Planned functionality
 
-The manifest in this repo bypasses the new Content Security Policy (CSP) enforced by Gmail.
+The email author is periodically asked to self assess (hourly?) on questions regarding mental, physical and emotional status. These are shared with whitelisted contacts as an email footer. Other passive metadata may be usefully integrated -- travel schedule ("I'm flying to Aukland tommorrow"), imprecise location ("Sent from the Chicago area"), music ("Listening to Beyonce").
 
-### Please use the latest `gmail.js` file from the original repo linked below
+### Privacy goals
 
-**http://github.com/kartiktalwar/gmail.js**
+- defaults to no sharing, must opt in for all behavior
+- no data stored in the cloud
+- behavior is transparent to sender, can edit footer
+
+### Dependencies
+
+- Gmail. An unofficial api, which is expected to break periodically. 
+- jQuery 
+- gmail.js http://github.com/kartiktalwar/gmail.js A pretty good abstraction layer that behaves with gmail cross-site security practices. 
+
+### Maintainer
+
+Github: jonathan-eyler-werve 
+Twitter: @eylerwerve 
+
 
 
 
