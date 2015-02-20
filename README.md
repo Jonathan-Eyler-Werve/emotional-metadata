@@ -20,8 +20,8 @@ The email author is periodically asked to self assess (hourly?) on questions reg
 
 ### Maintainer
 
-Github: jonathan-eyler-werve 
-Twitter: @eylerwerve 
+- Github: jonathan-eyler-werve 
+- Twitter: @eylerwerve 
 
 
 
