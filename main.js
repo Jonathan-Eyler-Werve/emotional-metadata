@@ -4,7 +4,8 @@ emo = new Object();  // global namespace for Emotional Metadata extension app da
 
 function refresh(f) {
   if( (/in/.test(document.readyState)) || (undefined === Gmail) ) {
-    setTimeout('refresh(' + f + ')', 10);
+    console.log("load wait runs")
+    setTimeout('refresh(' + f + ')', 100);
   } else {
     f();
   }
