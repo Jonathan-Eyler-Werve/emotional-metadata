@@ -4,7 +4,7 @@ An attempt to make email less damaging by sending the author's context with the 
 
 ### Planned functionality
 
-The email author is periodically asked to self assess (hourly?) on questions regarding mental, physical and emotional status. These are shared with whitelisted contacts as an email footer. Other passive metadata may be usefully integrated -- travel schedule ("I'm flying to Aukland tommorrow"), imprecise location ("Sent from the Chicago area"), music ("Listening to Beyonce").
+The email author is periodically asked to self assess (hourly?) on questions regarding mental, physical and emotional status. These are shared with whitelisted contacts as an email footer. Other passive metadata may be usefully integrated -- travel schedule ("I'm flying to Aukland tommorrow"; "I traveled 14,392 km in the last seven days"), imprecise location ("Sent from the Chicago area"; "Sent from my office"), music ("Listening to Beyonce"), scheduling ("I'm on vacation today."; "I prefer US/Central time (GMT -6)").
 
 ### Privacy goals
 
