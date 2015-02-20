@@ -3,7 +3,7 @@ var gmail, emo;
 emo = new Object();  // global namespace for Emotional Metadata extension app data 
 
 function refresh(f) {
-  if(/in/.test(document.readyState)) {
+  if( (/in/.test(document.readyState)) || (undefined === Gmail) ) {
     setTimeout('refresh(' + f + ')', 10);
   } else {
     f();
