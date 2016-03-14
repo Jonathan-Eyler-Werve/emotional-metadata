@@ -1,6 +1,8 @@
 # Emotional Metadata
 
-An attempt to make email less damaging by sending the author's context with the text. A chrome extention that builds on gmail. Work in progress.
+An attempt to make email less damaging by sending the author's context with the text. A chrome extention that builds on gmail. 
+
+*not currently maintained* Feel free to fork and take over. 
 
 ### Planned functionality
 
